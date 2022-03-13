@@ -724,6 +724,19 @@ ul#top_menu li a.btn_1:hover {
   background-size: cover;
 }
 #hero_in.general .wrapper {
+  background: url(../img/admision-banner.png) center no-repeat ;
+  background-color: #372675;
+  background-color: rgba(57, 39, 121, 0.8);
+}
+
+#hero_in.aboutus .wrapper {
+  background: url(../img/aboutus-banner.png) center no-repeat ;
+  background-color: #372675;
+  background-color: rgba(57, 39, 121, 0.8);
+}
+
+#hero_in.faq .wrapper {
+  background: url(../img/faq.jpg) center no-repeat ;
   background-color: #372675;
   background-color: rgba(57, 39, 121, 0.8);
 }
@@ -735,11 +748,17 @@ ul#top_menu li a.btn_1:hover {
   background-size: cover;
 }
 #hero_in.courses .wrapper {
-  background-color: #372675;
-  background-color: rgba(57, 39, 121, 0.8);
+  
+  /* background-color: black; */
+  
+  
+  background: url(../img/courses-banner.png) center no-repeat ;
+  background-size: cover;
+  background-color: rgba(69, 1, 71, 0.8);
+  /* background-color: rgba(0, 0, 0, 0.8); */
 }
 #hero_in.contacts:before {
-  background: src="img/la-banner-1.jpeg" center center no-repeat;
+  background: src="img/c1.jpeg" center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -3653,6 +3672,8 @@ a.boxed_list p {
 a.boxed_list:hover i {
   color: #392779;
 }
+
+
 
 /*-------- 2.4 Course detail--------*/
 .secondary_nav {
