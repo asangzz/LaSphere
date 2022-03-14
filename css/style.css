@@ -784,6 +784,12 @@ ul#top_menu li a.btn_1:hover {
   background-color: rgba(57, 39, 121, 0.8);
 }
 
+#hero_in.procedure .wrapper {
+  background: url(../img/procedure-banner.png) center no-repeat ;
+  background-color: #372675;
+  background-color: rgba(57, 39, 121, 0.8);
+}
+
 #hero_in.faq .wrapper {
   background: url(../img/faq.jpg) center no-repeat ;
   background-color: #372675;
