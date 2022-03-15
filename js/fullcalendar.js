@@ -2022,24 +2022,24 @@ function lazySegBind(container, segs, bindHandlers) {
 -----------------------------------------------------------------------------*/
 
 
-function setOuterWidth(element, width, includeMargins) {
+function setOuterWidth(element, width, inclPixelTechrgins) {
 	for (var i=0, e; i<element.length; i++) {
 		e = $(element[i]);
-		e.width(Math.max(0, width - hsides(e, includeMargins)));
+		e.width(Math.max(0, width - hsides(e, inclPixelTechrgins)));
 	}
 }
 
 
-function setOuterHeight(element, height, includeMargins) {
+function setOuterHeight(element, height, inclPixelTechrgins) {
 	for (var i=0, e; i<element.length; i++) {
 		e = $(element[i]);
-		e.height(Math.max(0, height - vsides(e, includeMargins)));
+		e.height(Math.max(0, height - vsides(e, inclPixelTechrgins)));
 	}
 }
 
 
-function hsides(element, includeMargins) {
-	return hpadding(element) + hborders(element) + (includeMargins ? hmargins(element) : 0);
+function hsides(element, inclPixelTechrgins) {
+	return hpadding(element) + hborders(element) + (inclPixelTechrgins ? hmargins(element) : 0);
 }
 
 
@@ -2061,8 +2061,8 @@ function hborders(element) {
 }
 
 
-function vsides(element, includeMargins) {
-	return vpadding(element) +  vborders(element) + (includeMargins ? vmargins(element) : 0);
+function vsides(element, inclPixelTechrgins) {
+	return vpadding(element) +  vborders(element) + (inclPixelTechrgins ? vmargins(element) : 0);
 }
 
 
