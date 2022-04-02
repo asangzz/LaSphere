@@ -690,10 +690,11 @@ ul#top_menu li:last-child {
 @media (max-width: 767px) {
   ul#top_menu li {
     margin-right: 20px;
-    margin-top: 20px;
+    margin-top: 0px;
   }
 }
 ul#top_menu li a {
+  margin-top: 20px;
   color: #fff;
 }
 ul#top_menu li a:hover {
@@ -735,7 +736,7 @@ ul#top_menu li a:hover {
 ul#top_menu li a.btn_1 {
   background-color: #FFC107;
   color: #333;
-  padding: 13px 30px;
+  padding: 13px 30px ;
 }
 ul#top_menu li a.btn_1:hover {
   background-color: #3f9fff;
@@ -744,8 +745,16 @@ ul#top_menu li a.btn_1:hover {
 }
 
 #logo {
+  height: auto;
+  padding: 1px 1px 1px 1px;
   float: left;
 }
+
+#logo img {
+  width: 80px;
+  height: auto;
+}
+
 @media (max-width: 767px) {
   #logo img {
     width: 80px;
@@ -1060,11 +1069,11 @@ ul#top_menu {
   }
 }
 #main_menu nav.version_2 {
-  margin-top: 25px;
+  margin-top: 35px;
 }
 @media (max-width: 767px) {
   #main_menu nav.version_2 {
-    margin-top: 0;
+    margin-top: 20;
   }
 }
 #main_menu nav.version_2 h3 {
