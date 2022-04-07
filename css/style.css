@@ -3618,9 +3618,14 @@ html[xmlns] .flexslider .slides {
   display: none;
 }
 @media (max-width: 767px) {
-  #icon_drag_mobile {
+  /* #icon_drag_mobile {
     display: block;
-  }
+  } */
+  /* #slider.flexslider ul.slides li img {
+    height: 500px !important;
+    width: auto;
+    display: block;
+  } */
 }
 
 #carousel_slider_wp {
@@ -3635,7 +3640,16 @@ html[xmlns] .flexslider .slides {
 }
 @media (max-width: 767px) {
   #carousel_slider_wp {
-    display: none;
+    /* display: none; */
+    background: transparent;
+    background: -webkit-linear-gradient(top, transparent, #000);
+    background: linear-gradient(to bottom, transparent, #000);
+    position: absolute;
+    bottom: 0;
+    /* z-index: 9; */
+    width: 100%;
+    height: 30%;
+    /* padding: 20px 60px 45px 20px; */
   }
 }
 
