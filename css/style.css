@@ -3601,7 +3601,7 @@ html[xmlns] .flexslider .slides {
 }
 @media (max-width: 767px) {
   #slider.flexslider ul.slides li img {
-    height: 575px !important;
+    height: 400px !important;
     width: auto;
   }
 }
