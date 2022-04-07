@@ -1168,17 +1168,20 @@ ul, ol {
 }
 .main_title_2 span {
   width: 120px;
-  height: 2px;
-  background-color: #e1e1e1;
+  height: 35px;
+  background-color: #fff0;
   display: block;
   margin: auto;
+  
 }
 .main_title_2 span em {
   width: 60px;
   height: 2px;
   background-color: #662d91;
   display: block;
-  margin: auto;
+  /* margin: auto; */
+  margin:auto;
+  margin-top: 10px;
 }
 @media (max-width: 767px) {
   .main_title_2 {
