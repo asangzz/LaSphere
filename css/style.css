@@ -1092,8 +1092,8 @@ html * {
 
 body {
   background: #f8f8f8;
-  font-size: 0.875rem;
-  line-height: 1.6;
+  font-size: 0.7rem;
+  line-height: 1.2;
   font-family: "Poppins", Helvetica, sans-serif;
   color: #555;
 }
@@ -3567,17 +3567,17 @@ html[xmlns] .flexslider .slides {
   display: none;
 }
 #slider.flexslider ul.slides li {
-  height: 650px;
+  height: 600px;
   background-color: #000;
 }
 @media (max-width: 1199px) {
   #slider.flexslider ul.slides li {
-    height: 650px !important;
+    height: 600px !important;
   }
 }
 @media (max-width: 767px) {
   #slider.flexslider ul.slides li {
-    height: 500px !important;
+    height: 575px !important;
   }
 }
 #slider.flexslider ul.slides li img {
@@ -3601,7 +3601,7 @@ html[xmlns] .flexslider .slides {
 }
 @media (max-width: 767px) {
   #slider.flexslider ul.slides li img {
-    height: 500px !important;
+    height: 575px !important;
     width: auto;
   }
 }
@@ -3621,11 +3621,11 @@ html[xmlns] .flexslider .slides {
   /* #icon_drag_mobile {
     display: block;
   } */
-  /* #slider.flexslider ul.slides li img {
-    height: 500px !important;
+  #slider.flexslider ul.slides li img {
+    height: 575px !important;
     width: auto;
     display: block;
-  } */
+  }
 }
 
 #carousel_slider_wp {
@@ -3647,7 +3647,7 @@ html[xmlns] .flexslider .slides {
     position: absolute;
     bottom: 0;
     /* z-index: 9; */
-    width: 100%;
+    width: 120%;
     height: 30%;
     /* padding: 20px 60px 45px 20px; */
   }
@@ -3696,7 +3696,7 @@ html[xmlns] .flexslider .slides {
   z-index: 9;
   width: 100%;
   height: 100%;
-  padding: 20px;
+  padding: 10px;
   color: #fff;
 }
 #carousel_slider.flexslider ul.slides li .caption h3 {
@@ -6752,7 +6752,7 @@ ul.bullets li:before {
 }
 
 .margin_120_0 {
-  padding-top: 120px;
+  padding-top: 14px;
 }
 @media (max-width: 991px) {
   .margin_120_0 {
