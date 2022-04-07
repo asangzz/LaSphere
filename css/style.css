@@ -3622,7 +3622,7 @@ html[xmlns] .flexslider .slides {
     display: block;
   } */
   #slider.flexslider ul.slides li img {
-    height: 575px !important;
+    height: 400px !important;
     width: auto;
     display: block;
   }
