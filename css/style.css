@@ -3621,12 +3621,13 @@ html[xmlns] .flexslider .slides {
   display: none;
 }
 @media (max-width: 767px) {
-  /* #icon_drag_mobile {
-    display: block;
-  } */
+ 
   #slider.flexslider ul.slides li img {
     height: 575px !important;
     width: auto;
+    display: block;
+  }
+  #icon_drag_mobile {
     display: block;
   }
 }
