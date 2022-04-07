@@ -1091,6 +1091,7 @@ html * {
 }
 
 body {
+  width: 100%;
   background: #f8f8f8;
   font-size: 0.7rem;
   line-height: 1.2;
@@ -2057,6 +2058,7 @@ ul#top_menu {
 
 /* Main */
 main {
+  width: 100%;
   background-color: #f8f8f8;
   position: relative;
   z-index: 1;
