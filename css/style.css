@@ -3601,7 +3601,7 @@ html[xmlns] .flexslider .slides {
 }
 @media (max-width: 767px) {
   #slider.flexslider ul.slides li img {
-    height: 400px !important;
+    height: 575px !important;
     width: auto;
   }
 }
@@ -3622,7 +3622,7 @@ html[xmlns] .flexslider .slides {
     display: block;
   } */
   #slider.flexslider ul.slides li img {
-    height: 400px !important;
+    height: 575px !important;
     width: auto;
     display: block;
   }
