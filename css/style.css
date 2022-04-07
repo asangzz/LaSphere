@@ -5645,7 +5645,7 @@ ul.additional_info li {
 @media (max-width: 767px) {
   ul.additional_info li {
     display: block;
-    width: auto;
+    width: 100%;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     border-right: none;
     padding: 15px 15px 15px 85px;
