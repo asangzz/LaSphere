@@ -1581,9 +1581,17 @@ ul#top_menu li:last-child {
   }
 }
 ul#top_menu li a {
-  margin-top: 2px;
+  margin-top: 20px;
   color: #fff;
 }
+@media (max-width: 767px) {
+  ul#top_menu li a {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+}
+
 ul#top_menu li a:hover {
   color: #fff;
   opacity: 0.7;
@@ -1625,6 +1633,14 @@ ul#top_menu li a.btn_1 {
   color: #333;
   padding: 13px 30px ;
 }
+@media (max-width: 767px) {
+  ul#top_menu li a.btn_1 {
+    background-color: #FFC107;
+    color: #333;
+    padding: 9px 13px ;
+  }
+}
+
 ul#top_menu li a.btn_1:hover {
   background-color: #3f9fff;
   color: #fff;
@@ -1644,7 +1660,7 @@ ul#top_menu li a.btn_1:hover {
 
 @media (max-width: 767px) {
   #logo img {
-    width: 130px;
+    width: 180px;
     height: auto;
     padding: 1px 1px 10px 1px;
   }
