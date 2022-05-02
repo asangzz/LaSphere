@@ -1576,12 +1576,12 @@ ul#top_menu li:last-child {
 }
 @media (max-width: 767px) {
   ul#top_menu li {
-    margin-right: 20px;
+    margin-right: 10px;
     margin-top: 0px;
   }
 }
 ul#top_menu li a {
-  margin-top: 20px;
+  margin-top: 2px;
   color: #fff;
 }
 ul#top_menu li a:hover {
@@ -1644,7 +1644,7 @@ ul#top_menu li a.btn_1:hover {
 
 @media (max-width: 767px) {
   #logo img {
-    width: 300px;
+    width: 130px;
     height: auto;
     padding: 1px 1px 10px 1px;
   }
