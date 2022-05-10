@@ -1637,7 +1637,7 @@ ul#top_menu li a.btn_1 {
   ul#top_menu li a.btn_1 {
     background-color: #FFC107;
     color: #333;
-    padding: 9px 13px ;
+    padding: 13px 3px ;
   }
 }
 
@@ -1654,13 +1654,13 @@ ul#top_menu li a.btn_1:hover {
 }
 
 #logo img {
-  width: 300px;
+  width: 420px;
   height: auto;
 }
 
 @media (max-width: 767px) {
   #logo img {
-    width: 180px;
+    width: 300px;
     height: auto;
     padding: 1px 1px 10px 1px;
   }
