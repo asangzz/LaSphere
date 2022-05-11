@@ -37,11 +37,51 @@ Author URI: http://themeforest.net/user/PixelTech/
 - 3.7 Search modal
 - 3.8 Cookie bar
 
-
+ul#top_menu {
+  float: right;
+  margin: 0 0 0 0;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
 *------------------------------------*\
     #Testimonial
 \*------------------------------------*/
-
+/* DropDown */
+.dropdown {
+  display: inline-block;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  /* padding-top: 50px; */
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: max-content;
+  overflow: auto;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  background: linear-gradient(to right, #731c49, #972f48);
+  box-shadow: 0px 10px 10px 0px rgba(232, 72, 72, 0.25);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  display: block;
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  color: #f8c146;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  padding: 7px;
+  /* box-shadow: 0px 10px 10px 0px rgb(187, 99, 21); */
+}
+/* DropDown */
 
 @import url(//cdn.rawgit.com/rtaibah/dubai-font-cdn/master/dubai-font.css);
 
@@ -1105,7 +1145,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+h7 {
   color: #333;
 }
 
@@ -4617,6 +4658,13 @@ a#filters_col_bt:before {
   padding: 15px 0 0 0;
   font-size: 14px;
   font-size: 0.875rem;
+}
+h7 {
+  display: block;
+  font-size: .9em;
+  margin-left: 0;
+  margin-right: 0;
+  /* font-weight: bold; */
 }
 .filter_type ul {
   list-style: none;
