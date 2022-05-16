@@ -47,6 +47,20 @@ ul#top_menu {
     #Testimonial
 \*------------------------------------*/
 /* DropDown */
+
+
+
+.mainlogo {
+  padding-left: 250px;
+  padding-right: 250px;
+}
+@media (max-width: 767px) {
+  .mainlogo {
+    padding-left: 25px;
+  padding-right: 25px;
+  }
+}
+
 .dropdown {
   display: inline-block;
   position: relative;
@@ -4976,7 +4990,7 @@ section#reviews {
 }
 
 #admission_bg {
-  background: url(http://via.placeholder.com/1600x1067/ccc/fff/bg_admission.jpg) center center no-repeat;
+  background: url(../img/la-header1.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
