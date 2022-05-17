@@ -48,7 +48,14 @@ ul#top_menu {
 \*------------------------------------*/
 /* DropDown */
 
-
+.payment_img{
+  width: 900px;
+}
+@media (max-width: 767px){
+  .payment_img{
+    width: 450px;
+  }
+}
 
 .mainlogo {
   padding-left: 250px;
